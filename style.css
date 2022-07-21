@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 60vh;
+    background-color: #161616;
+    border: 1px solid;
+    border-radius: 10px;
+    color: #ffffff;
+    display: flex;
+    margin-top: 30px;
+}
+
+.left-cont {
+    margin: 30px;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: -10px;
+}
+
+p {
+    font-size: 2rem;
+}
+
+.watch-btn {
+    border-radius: 5px;
+    padding: 15px 30px;
+    background-color: #DD0000;
+    display: inline-block;
+}
+
+.watch-btn .btn {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.watch-btn .fa-angle-right {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.right-cont {
+    margin: 50px 0 0 40px;
+}
+
+.right-cont img {
+    width: 450px;
+}
+
+.mid-container {
+    display: flex;
+}
+
+.small-cont {
+    width: 450px;
+    height: 300px;
+    background-color: #161616;
+    border-radius: 8px;
+}
+
+nav ul li {
+    list-style: none;
+    margin-top: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    margin: 7px;
+    font-size: 24px;
+    width: 300px;
+    text-align: center;
+}
+
+.mat {
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 15px 20px;
+    display: inline-block;
+}
+
+.grp {
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 15px 20px;
+    display: inline-block;
+}
+
+.blg {
+    border-radius: 5px;
+    background-color: #DD0000;
+    color: #ffffff;
+    padding: 15px 20px;
+    display: inline-block;
+}
