@@ -127,14 +127,14 @@ nav ul li a {
 
 .flag {
     display: flex;
-    margin: 20px;
-    padding: 20px;
     justify-content: center;
     align-items: center;
+    margin: 20px;
+    padding: 20px;
 }
 
 .time {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 button {
