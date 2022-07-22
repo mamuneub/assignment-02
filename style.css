@@ -148,13 +148,8 @@ p {
     }
 }
 
-@media screen and (max-width: 576px) {
-    .small-cont {
-        display: none;
-    }
-}
 
-@media screen and (min-width: 992px) {
+@media screen and (max-width: 576px) {
     .small-cont {
         display: none;
     }
