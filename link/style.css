@@ -18,55 +18,6 @@ body {
     margin-top: 30px;
 }
 
-@media screen and (min-width: 576px) and (max-width: 992px) {
-    .container {
-        height: 100%;
-    }
-}
-
-@media screen and (max-width: 576px) {
-    .container {
-        height: 100%;
-        display: block;
-        text-align: center;
-    }
-}
-
-
-.tab-cont {
-    width: 100%;
-    text-align: center;
-    font-weight: 700;
-}
-
-@media screen and (max-width: 576px) {
-    .tab-cont {
-        margin-left: 120px;
-    }
-
-    .tab-cont a {
-        display: block;
-
-    }
-}
-
-.tab-cont a {
-    width: 150px;
-    text-align: center;
-    border: 1px solid silver;
-    border-radius: 8px;
-    text-decoration: none;
-    padding: 15px 20px;
-    margin-top: 40px;
-
-}
-
-@media screen and (min-width: 992px) {
-    .tab-cont {
-        display: none;
-    }
-}
-
 .left-cont {
     margin: 30px;
     padding: 30px;
@@ -77,32 +28,8 @@ h1 {
     margin-bottom: -10px;
 }
 
-@media screen and (min-width: 576px) and (max-width: 992px) {
-    h1 {
-        font-size: 3rem;
-    }
-}
-
-@media screen and (max-width: 576px) {
-    h1 {
-        font-size: 2rem;
-    }
-}
-
 p {
     font-size: 2rem;
-}
-
-@media screen and (min-width: 576px) and (max-width: 992px) {
-    p {
-        font-size: 1rem;
-    }
-}
-
-@media screen and (max-width: 576px) {
-    p {
-        font-size: 1rem;
-    }
 }
 
 .watch-btn {
@@ -140,24 +67,6 @@ p {
     height: 300px;
     background-color: #161616;
     border-radius: 8px;
-}
-
-@media screen and (min-width: 576px) and (max-width: 992px) {
-    .small-cont {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 576px) {
-    .small-cont {
-        display: none;
-    }
-}
-
-@media screen and (min-width: 992px) {
-    .small-cont {
-        display: none;
-    }
 }
 
 nav ul li {
@@ -207,26 +116,24 @@ nav ul li a {
     width: 80%;
 }
 
-@media screen and (max-width: 992px) {
-    .watch-box {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media screen and (max-width: 576px) {
-    .watch-box {
-        grid-template-columns: repeat(1, 1fr);
-    }
-}
-
 .grid {
     border: 1px solid #afa3a3;
     border-radius: 15px;
     margin: 0 15px;
+    text-align: center;
+    width: 100%;
 }
 
-.grid img {
-    width: 100%;
+.flag {
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.time {
+    font-size: 18px;
 }
 
 button {
@@ -236,52 +143,11 @@ button {
     font-size: 16px;
 }
 
-.icon-box {
-    display: flex;
-}
-
-.icon {
-    font-size: 16px;
-    margin-right: 20px;
-}
-
-.view {
-    text-align: center;
-}
-
-.blog-1 {
-    border: 0 solid #ffffff;
-    border-radius: 8px;
-    background-color: #DD0000;
-    color: #ffffff;
-    padding: 15px 50px;
-    font-weight: 700;
-    margin-top: 40px;
-}
-
-@media screen and (max-width: 576px) {
-    .blog-1 {
-        display: none;
-    }
-}
-
-@media screen and (min-width: 992px) {
-    .blog-1 {
-        display: none;
-    }
-}
-
 .f-container {
     width: 100%;
     height: 30vh;
     background-color: #161616;
     margin-top: 60px;
-}
-
-@media screen and (max-width: 576px) {
-    .f-container {
-        height: 100%;
-    }
 }
 
 .goal {
@@ -312,69 +178,8 @@ hr {
     align-items: center;
 }
 
-@media screen and (max-width: 992px) {
-    .contact {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-    }
-}
-
-@media screen and (max-width: 576px) {
-    .contact {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .contact a {
-        display: block;
-        text-align: center;
-    }
-}
-
 .contact a {
     text-decoration: none;
     color: #dbcfcf;
     margin: 25px;
-}
-
-.social {
-    margin: 0 15px;
-    font-size: 40px;
-    text-align: center;
-}
-
-@media screen and (min-width: 576px) {
-    .social {
-        display: none;
-    }
-}
-
-@media screen and (min-width: 992px) {
-    .social {
-        display: none;
-    }
-}
-
-.social .fa-facebook {
-    background-color: #1198F5;
-    color: #ffffff;
-    padding: 20px;
-    border-radius: 50%;
-    font-size: 40px;
-}
-
-.social .fa-twitter {
-    background-color: #ffffff;
-    color: #1D9BF0;
-    padding: 20px;
-    border-radius: 50%;
-    font-size: 40px;
-}
-
-.social .fa-linkedin {
-    background-color: #136CC4;
-    color: #ffffff;
-    padding: 20px;
-    border-radius: 50%;
-    font-size: 40px;
 }
